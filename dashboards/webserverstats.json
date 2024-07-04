@@ -80,7 +80,7 @@
             "uid": "ddqfei6r5p3pca"
           },
           "editorMode": "code",
-          "expr": "100 * avg(1 - rate(node_cpu_seconds_total{mode=\"idle\",instance=\"$instancename\"}[5m]))",
+          "expr": "100 * avg(1 - rate(node_cpu_seconds_total{mode=\"idle\",instance=\"$instancename\"}[3m]))",
           "instant": false,
           "legendFormat": "__auto",
           "range": true,
@@ -175,7 +175,7 @@
             "uid": "ddqfei6r5p3pca"
           },
           "editorMode": "code",
-          "expr": "100 * avg(1 - rate(node_cpu_seconds_total{mode=\"idle\",instance=\"$instancename\"}[5m]))",
+          "expr": "100 * avg(1 - rate(node_cpu_seconds_total{mode=\"idle\",instance=\"$instancename\"}[3m]))",
           "instant": false,
           "legendFormat": "__auto",
           "range": true,
